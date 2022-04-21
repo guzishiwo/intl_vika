@@ -1,6 +1,6 @@
 # intl_vika
 
-intl_vika 是一个用vika的表格来管理多语言资源的工具.  可以使用到web、flutter、iOS的项目中，配合维格表非常快速高效的维护多语言
+intl_vika 是一个用vika的表格来管理多语言资源的工具.  可以使用到web、flutter、iOS、Android的项目中，配合维格表非常快速高效的维护多语言
 
 支持导出的格式
 
@@ -8,7 +8,7 @@ intl_vika 是一个用vika的表格来管理多语言资源的工具.  可以使
 
 - strings
 
-- [todo] xml
+- xml
 
 - [todo] sql
 
@@ -36,7 +36,7 @@ Commands:
   json     json格式编码 (Web、Flutter)
   sql      [Todo] sql格式编码
   strings  strings格式编码 (iOS)
-  xml      [todo] xml格式编码 (Android)
+  xml      xml格式编码 (Android)
 ```
 
 ## 表格例子
@@ -50,15 +50,32 @@ Commands:
 | world            | 世界                  | world                          | 世界                   |
 | home.message     | 今天天气如何？             | How is the weather like today? | 今日の天気はどうですか？         |
 
-运行下面的命令
+### json 格式命令
 
 ```shell
-python3 intl_vika/main.py json --token=填写你的token --sheet=填写你的sheetid --output-dir=./example
+python3 intl_vika/main.py json --token=填写你的token --sheet=填写你的sheetid --output-dir=./example/json/
 # 输出格式
-example
+example/json
 ├── en.json
 ├── ja.json
 └── zh.json
+```
+
+### strings 格式命令
+
+```shell
+python3 intl_vika/main.py strings --token=填写你的token --sheet=填写你的sheetid --output-dir=./example/strings/
+```
+
+### xml 格式命令
+
+```shell
+python3 intl_vika/main.py xml --token=填写你的token --sheet=填写你的sheetid --output-dir=./example/xml/
+# 输出格式
+example/xml
+├── en.xml
+├── ja.xml
+└── zh.xml
 ```
 
 ## 元数据

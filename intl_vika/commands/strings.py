@@ -28,7 +28,7 @@ class StringsFormater(Formater):
 @click.option('--output-dir', required=True, help='zh-Hans.lproj的父目录')
 def strings(token, sheet, output_dir, table):
     """
-    [todo] strings格式编码 (iOS)
+    strings格式编码 (iOS)
 
     模板参考地址：https://vika.cn/share/shrer6Lqzo6KUgLCN2deb
     """

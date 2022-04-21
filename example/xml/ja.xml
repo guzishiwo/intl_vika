@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<resources>
+    <string name="hello">こんにちは</string>
+    <string name="world">世界</string>
+    <string name="home.message">今日の天気はどうですか？</string>
+</resources>

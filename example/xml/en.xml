@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<resources>
+    <string name="hello">hello</string>
+    <string name="world">world</string>
+    <string name="home.message">How is the weather like today?</string>
+</resources>
