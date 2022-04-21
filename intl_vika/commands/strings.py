@@ -17,7 +17,7 @@ class StringsFormater(Formater):
 
         with open(file_path, 'w') as f:
             for key, value in dic.items():
-                line = '"{0}" = "{1}"\n'.format(key, value)
+                line = '"{0}" = "{1}";\n'.format(key, value)
                 f.write(line)
 
 
