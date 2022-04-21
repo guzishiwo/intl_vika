@@ -1,0 +1,7 @@
+{
+    "hello": "hello",
+    "world": "world",
+    "home": {
+        "message": "How is the weather like today?"
+    }
+}
