@@ -149,7 +149,7 @@ def cli(token, sheet, output_dir, indent):
     """
     intl_vika 是一个用vika的表格来管理多语言资源的工具 
 
-    模板参考地址：https://vika.cn/workbench/dstctVe8la79n3GWM3/viwXociYf3S8K
+    模板参考地址：https://vika.cn/share/shrotLJ6naeinkBELMH3M
     """
     run(token, sheet, output_dir, indent)
 

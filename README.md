@@ -13,7 +13,7 @@ Usage: main.py [OPTIONS]
 
   intl_vika 是一个用vika的表格来管理多语言资源的工具
 
-  模板参考地址：https://vika.cn/workbench/dstctVe8la79n3GWM3/viwXociYf3S8K
+  模板参考地址：https://vika.cn/share/shrotLJ6naeinkBELMH3M
 
 Options:
   -t, --token TEXT   维格表API Token  [required]
@@ -25,7 +25,7 @@ Options:
 
 ## 表格例子
 
-[维格表的模板](https://vika.cn/workbench/dstctVe8la79n3GWM3/viwXociYf3S8K)
+[维格表的模板](https://vika.cn/share/shrotLJ6naeinkBELMH3M)
 
 | Key `[code=key]` | Chinese `[code=zh]` | English `[code=en]`            | Japanese `[code=ja]` |
 | ---------------- | ------------------- | ------------------------------ | -------------------- |
