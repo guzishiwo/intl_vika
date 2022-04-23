@@ -2,6 +2,8 @@
 
 intl_vika 是一个用vika的表格来管理多语言资源的工具.  可以使用到web、flutter、iOS、Android的项目中，配合维格表非常快速高效的维护多语言
 
+![int_vika.png](./images/int_vika.png)
+
 支持导出的格式
 
 - json
@@ -41,7 +43,6 @@ Commands:
 
 ## 表格例子
 
-导出JSON格式
 [维格表的模板](https://vika.cn/share/shrotLJ6naeinkBELMH3M)
 
 | Key `[code=key]` | Chinese `[code=zh]` | English `[code=en]`            | Japanese `[code=ja]` |
@@ -65,6 +66,12 @@ example/json
 
 ```shell
 python3 intl_vika/main.py strings --token=填写你的token --sheet=填写你的sheetid --output-dir=./example/strings/
+# 输出格式
+.
+├── en.lproj
+│   └── Localizable.strings
+└── zh-Hans.lproj
+    └── Localizable.strings
 ```
 
 ### xml 格式命令
@@ -95,5 +102,5 @@ JSON 模式 key默认支持以点分割，导出的时候以map嵌套的方式�
 ```
 {"hello.world" : "hello world!"}
 =>
-{"hello": {"world": "hello world!"}}
+{"hello": {"world": "hello world!"}} 
 ```
